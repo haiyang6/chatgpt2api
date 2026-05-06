@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Github } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 
 import webConfig from "@/constants/common-env";
@@ -72,17 +71,17 @@ export function TopNav() {
             href="/image"
             className="shrink-0 py-1 text-[15px] font-bold tracking-tight text-stone-950 transition hover:text-stone-700"
           >
-            chatgpt2api
+            haiyang.chatgptimage2api
           </Link>
           <a
-            href="https://github.com/basketikun/chatgpt2api"
+            href="https://qm.qq.com/q/EP8Pl6OnSw"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-1.5 py-1 text-sm text-stone-400 transition hover:text-stone-700"
-            aria-label="GitHub repository"
+            aria-label="联系QQ"
           >
-            <Github className="size-4" />
-            <span className="hidden md:inline">GitHub</span>
+            <span className="size-4">💬</span>
+            <span className="hidden md:inline">QQ</span>
           </a>
           <button
             type="button"
